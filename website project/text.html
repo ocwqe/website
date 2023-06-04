@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Techethics</title>
+<link rel="icon" type="w3-image" href="logo-gray.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #444444;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px};
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+.AIwebsite {
+   
+   color: rgb(7, 37, 121);
+   border: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding: 10px;
+   border-radius: 2px;
+   cursor: pointer;
+   border-style: solid;
+   border-width: 1px;
+   background-color: #2196F3;
+   margin-right: 10px;
+   text-decoration: solid;
+   font-weight: bold;
+   font-size: 17px;
+   transition: background-color 0.2s,
+    color 0.2s;
+  vertical-align: top;
+  transition: padding 0.1s;
+}
+.AIwebsite:hover {
+  background-color: rgb(7, 37, 121) ;
+  color: #2196F3;
+  transition: 0.5;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+
+.AIwebsite:active  {
+  opacity: 0.6;
+
+}
+
+.ADMwebsite {
+   
+   color: rgb(7, 37, 121);
+   border: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding: 10px;
+   border-radius: 2px;
+   cursor: pointer;
+   border-style: solid;
+   border-width: 1px;
+   background-color: #2196F3;
+   margin-right: 10px;
+   text-decoration: solid;
+   font-weight: bold;
+   font-size: 17px;
+   transition: background-color 0.2s,
+    color 0.2s;
+  vertical-align: top;
+  transition: padding 0.1s;
+}
+.ADMwebsite:hover {
+  background-color: rgb(7, 37, 121) ;
+  color: #2196F3;
+  transition: 0.5;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+
+.ADMwebsite:active  {
+  opacity: 0.6;
+
+}
+.PAwebsite {
+   
+   color: rgb(7, 37, 121);
+   border: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding: 10px;
+   border-radius: 2px;
+   cursor: pointer;
+   border-style: solid;
+   border-width: 1px;
+   background-color: #2196F3;
+   margin-right: 10px;
+   text-decoration: solid;
+   font-weight: bold;
+   font-size: 17px;
+   transition: background-color 0.2s,
+    color 0.2s;
+  vertical-align: top;
+  transition: padding 0.1s;
+}
+.PAwebsite:hover {
+  background-color: rgb(7, 37, 121) ;
+  color: #2196F3;
+  transition: 0.5;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+
+.PAwebsite:active  {
+  opacity: 0.6;
+  }
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="logo-gray.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-blue">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#Computers" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+    <i class=""></i>
+    <p>COMPUTERS IN THE WORKFORCE</p>
+  </a>
+  <a href="#AI" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+    <i class=""></i>
+    <p>ARTIFICIAL INTELLIGENCE</p>
+  <a href="#ADM" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+      <i class=""></i>
+      <p>AUTOMATED DECISION MAKING</p>
+  </a>
+  <a href="#Environment" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+    <i class=""></i>
+    <p>EFFECTS ON THE ENVIRONMENT</p>
+  <a href="#Ethics" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+    <i class=""></i>
+    <p>ETHICS OF TECHNOLOGY</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+    <i class=""></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center " id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">The future </span>of technology. </h1>
+    <p>and the effect of it on us and world at large.</p>
+    <img src="cartoon-planet-earth-3d-model-low-poly-obj-3ds-fbx-stl-blend-dae-300586310.jpg" alt="earth" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!--About Section-->
+  <div class="w3-content w3-justify w3-text-blue w3-padding-64" id="about">
+    <h2 class="w3-text-white">Our organization</h2>
+    <hr style="width:300px" class="w3-opacity">
+    <p>Welcome to our site! We are an organization who focus on informing the masses on the potential risks and benefits of technology not only to ourselves, but to the environment around us.
+       We operate with a team of over 300 people, all of which are experts within the field, and are prepared to help and inform whoever needs it at a moments notice.
+    </p>
+  
+  <!--Computers Section-->
+  <div class="w3-padding-64 w3-content" id="Computers">
+    <h2 class="w3-text-light-grey">Computers in the workforce</h2>
+    <hr style="width:450px" class="w3-opacity">
+    <p>Computers are essential in the workplace, as they increase the efficiency and effectiveness of work tenfold.
+       They are most often used for data storage, access to certain software such as Microsoft excel and communication software such as Microsoft Teams.
+       Typically, computers are traditionally seen as just a laptop or pc, however, people forget that simple things such as cash registers and fingerprint scanners are also computers!
+    </p>
+    <p>Some prominent examples of computers being used in the workforce are:</p>
+    <ul>
+      <li>Hospitals; 
+        They utilise computers to store information about patients such as their age, proportions, medical history, and what medicine they are taking.
+      </li>
+      <li>Libraries;
+        Libraries use computers to store where all the books in the library are, and a computer scans books and your library card if you are taking a book or giving one back.
+      </li>
+      <li>Stores;
+        Stores use computers in the form of (self)chechouts, which scan items and calculate the amount needed, and the change.
+      </li>
+      </ul>
+      <h4 class="w3-text-light-grey w3-bar-item">Advantages and disadvantages</h4>
+      <hr style="width:100px" class="w3-opacity">
+      <p>There are many more advantages to having computers and technology as a whole in the workplace than there are disadvantages, some of which include;
+        <ul>
+         <li>
+          Automated customer support tools.
+         </li>
+        <li>
+          Allows for greater mobility and flexibility, as some tasks may now be completed solely online.
+        </li>
+        <li>
+          Encourages creativity and efficiency, as companies can compete to make the best and most innovative designs/systems.
+        </li>
+        </ul>
+        <p>
+          However, there are still flaws to having more technology and computers in the workplace, some of which include;
+          <ul>
+            <li>
+             May encourage laziness.
+            </li>
+           <li>
+             It may cause distractions at work.
+           </li>
+           <li>
+             May result in breaches of personal privacy.
+           </li>
+           </ul>
+        </p>
+            If you'd like to watch a video on the matter, we suggest watching this;
+            
+        <p>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ukvd4adVcHw" title="YouTube video player" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </p>
+      </p>
+   <!--AI Section-->
+  <div class="w3-padding-64 w3-content" id="AI">
+    <h2 class="w3-text-light-grey">Artificial intelligence</h2>
+    <hr style="width:340px" class="w3-opacity">
+    <p>
+      AI is rapidly growing in influence and popularity, with AI such as ChatGPT showing the public at large just what current Artificial Intelligence is capable of.
+      However, AI has been essential in business and technology for years now, with businesses utilising it to automate processes, surveil security and to forecast sales.
+      Additionally, AI can even be found on your phone in the form of predicitive text, phone AI's and even face ID!
+    </p>
+    <p>
+      With how popular AI has grown over the past few years, we must ask ourselves; is it really beneficial, or are we just setting ourselves up to be easy prey for our future AI overlords..
+      Luckily, AI holds no real power over us just yet..
+    </p>
+    <h4 class="w3-text-light-grey w3-bar-item">Advantages and disadvantages</h4>
+    <hr style="width:100px" class="w3-opacity">
+    <p>
+      Here is a quick breakdown of what AI can do, and how it can be both a benefit and a detriment to us.
+    </p>
+    <ul>
+      <li>
+        AI is used in search engines to give relevant searches to its user, and it accomplishes this by analysing the users previous searches.
+      </li>
+      <li>
+        Language translation software uses AI to translate from one language to another.
+      </li>
+      <li>
+        AI can be used in manufacturing via robots, which greatly increases efficiency.
+      </li>
+      <li>
+        You can have AI in games to compete against players.
+      </li>
+    </ul>
+      <p>
+        AI can be both extraordinarily beneficial and detrimental, making it a very sharp double edged sword. For example, even though AI
+        greatly increases efficiency, it may also result in the loss of jobs for millions, as they get replaced by faster working and less needy machines.
+        Yet another example can be found within gaming, where AI can be used to make bots which can make games more engaging and interesting, however, AI technology can also
+        be used maliciously by players of said game, with them making bots which possess superhuman levels of skill, and making them look like a normal player in game so they can be used in online matches,
+         making it unfair for other players.
+      </p>
+      <p>Here is a video which goes more in depth on the topic</p>
+      <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OTwdrMAq-Fk" title="YouTube video player"
+         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+      <p>Additionally, if you would like to read up on an AI on a website, click the button below.</p>
+      <a href="https://www.europarl.europa.eu/news/en/headlines/society/20200827STO85804/what-is-artificial-intelligence-and-how-is-it-used" target="_blank"><button class="AIwebsite">AI INFO</button></a>
+   <!-- ADM Section -->
+  <div class="w3-padding-64 w3-content" id="ADM">
+    <h2 class="w3-text-light-grey">Automated Decision Making (ADM)</h2>
+    <hr style="width:575px" class="w3-opacity">
+    <p>ADM is being used more and more with the advent of more advanced technology, with it now being used in debates to assess arguments and view the quality of debates and
+     being used to supplement or replace the human judgment of judges, civil servants and police officers in many contexts. ADM is closely linked to the field of Artificial Intelligence, with AI
+    commonly utilising ADM in contexts such as predicitve analytics and user profiling. Most commonly, ADM is used in smaller decisions, however, bigger issues may arise if it is used in the
+    decision making of bigger more impactful choices.</p>
+    <h4 class="w3-text-light-grey w3-bar-item">Concerns with ADM</h4>
+    <hr style="width:100px" class="w3-opacity">
+
+    <p>The most common concerns with ADM are; </p>
+    <ol>
+      <li>A lack of transparency and contestability of decisions, incursions on privacy and surveillance.
+      </li>
+      <li>
+         Incursions on privacy and surveillance.
+      </li>
+      <li>
+        Exacerbating systemic bias and inequality due to data and algorithmic bias.
+      </li>
+      <li>The spread of misinformation via media platforms and administrative discrimination</li>
+    </ol>
+    <p>Despite these drawbacks, ADM is still very widely used, as it increases efficiency exponentially, and can be used in tandem
+      with AI for even better results. ADM will most likely be used more and more as technology (especially AI) progresses, but we will still try to
+      minimise the risks as much as possible.
+    </p>
+    <p>Here is a website which goes over some aspects of ADM:</p>
+    <a href="https://hbr.org/2021/11/managing-ai-decision-making-tools" target="_blank"><button class="ADMwebsite">ADM INFO</button></a>
+
+
+    <!--Environment Section-->
+  <div class="w3-padding-64 w3-content" id="Environment">
+    <h2 class="w3-text-light-grey">Environmental effects</h2>
+    <hr style="width:380px " class="w3-opacity">
+    <p>Our growing need for technology has resulted in many negative effects on the environments,
+       as to supply our demand of technology we have had to build 100's of new factories to construct our hardware, resulting in increased greenhouse gas emissions, which contributes to climate change.
+      Additionally, it has seen us deplete the natural resources of our planet even faster than ever before, and has resulted in the destruction of many natural habitats as we attempt to free up space 
+      for our roads, homes and railways.</p>
+      <p> While technology has resulted in many negative effects for the natural environment, it has also increased human quality of life exponentially, with better transportation being available,
+         better housing, more enjoyable recreation and bulk production of many essential and important products such as food and mobile devices.
+      </p>
+      <p>Here is an extensive video detailing the impact of technology on the environment</p>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pkYMUKxOmDA" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+             <!--Ethics Section-->
+      <div class="w3-padding-64 w3-content" id="Ethics">
+        <h2 class="w3-text-light-grey">Ethics of technology</h2>
+        <hr style="width:380px " class="w3-opacity">
+       <p>There are many subjects within this field, some of which include:</p>
+       <ul>
+        <li>Censorship & The Internet.</li>
+        <li>Monitoring Behaviour.</li>
+        <li>Analysis of Personal Information.</li>
+        <li>Piracy & Offensive Communications.</li>
+        <li>User Interface Design Considerations.</li>
+       </ul>
+
+       <!-- Censorship Section -->
+       <h4 class="w3-text-light-grey w3-bar-item">Censorship and the internet.</h4>
+       <hr style="width:100px" class="w3-opacity">
+       <p>Censorship on the internet has the potential of being used for good, such as when websites don't allow youths to access content they shouldnt be able to,
+        and stopping people from seeing messages which may incite violence. It also has the potential of being used maliciously, as it may limit peoples access to important
+        info and skills, which may lead to less opportunities for said person. In addition to this, it may stifle creativity and critical thinking, as it may stop people from expressing their opinions
+        , leading to only one side of an argument being represented fairly online, leading to misinformation and false beliefs spreading.
+       </p>
+
+       <!-- Behaviour Section -->
+       <h4 class="w3-text-light-grey w3-bar-item">Monitoring behaviour.</h4>
+       <hr style="width:100px" class="w3-opacity">
+       <p>Monitoring behaviour is also a double edged sword, with it potentially being used both for good and bad. 
+        It is traditionally used within schools to keep tabs on a students progress and behaviour during their academic journey, which is useful as it makes all of that information ready
+         to be seen on demand, and is a convenient way of storing said info. However, monitoring behaviour may extend to the monitoring of an individuals behaviour online, and problems may arise
+         in that scenario, as sites may store sensitive info about peoples behaviour that they would rather not have stored. This may be seen as a breach of privacy by many. Typically, sites
+         do this to provide predicitive links and results to an individual based on their previous behaviour, such as relevant websites and searches.
+      </p>
+
+      <!-- Personal info Section -->
+      <h4 class="w3-text-light-grey w3-bar-item">Analysis of personal information.</h4>
+       <hr style="width:100px" class="w3-opacity">
+       <p>This section is closely related to the monitoring behaviour section, and so similar issues arise, with many seeing the analysis of their personal info as a breach of privacy. Many companies
+        are solely dedicated to harvesting your info and selling it to advertisers (some even illegaly!).
+       </p>
+       <p>Here is some info about the laws regarding the analysis of personal information.</p>
+       <a href="https://www.gov.uk/data-protection" target="_blank"><button class="PAwebsite">PERSONAL ANALYSIS LAW INFO</button></a>
+
+       <!-- Piracy Section -->
+       <h4 class="w3-text-light-grey w3-bar-item">Piracy and offensive communications.</h4>
+       <hr style="width:100px" class="w3-opacity">
+       <p>Piracy is the unauthorised copying of software, with the most common form of piracy being gaining access to entertainment media without paying. Rates of piracy are growing by the minute, and this is due to how:
+        <ol>
+          <li>Easy it is.</li>
+          <li> Only mild consequences follow if you are caught.</li>
+          <li>It is more convenient.</li>
+        </ol>
+        Some groups of people have even formed communities solely dedicated to piracy, such as the infamous Pirate Bay.
+       </p>
+       <p>Offensive communications are the act of harassing another person. The internet has escalated this issue greatly, as users may harass people anonymously, and across the world. Luckily, There
+        are laws in place to help prevent offensive communications. Some of these include:
+        <ul>
+          <li>Section 1 of the Malicious Communications Act 1998, which says it is an offence to send an indecent, offensive or threatening letter, electronic communication or other article to another person. </li>
+          <li>Section 85 of the Communications Act 2003 and Section 85 of the Postal Services Act 2000 which detail similar specific offences related to sending postal or telephone messages which are indecent, 
+            offensive or threatening</li>
+        </ul>
+        Both offences are punishable with up to six months imprisonment and/or a fine. Because the Malicious Communications Offence covers more areas than the Telecommunications 
+        offence it is more likely to be used by the Police than the Postal Services or Communications Act offences.
+       </p>
+        <!-- User Interface Design Considerations Section -->
+        <h4 class="w3-text-light-grey w3-bar-item">User Interface Design Considerations.</h4>
+        <hr style="width:100px" class="w3-opacity">
+        <p>There are many factors to consider then designing a UI, such as the layout, colours, and character sets. Ideally, 
+          you want an intuitive layout with colours which work together perfectly and a universal design (one which is able to be used and understood by all). A universal design 
+        may be achieved by, for example, having large font sizes, which helps the visually impaired read through your site, or avoiding voice interactable UI's, as they may not recognise
+         certain accents and/or voices</p>
+          <p> Here is a video detailing many factors to consider whilst designing a UI:</p>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dQcHUyHPlx0" title="YouTube video player" frameborder="0"
+           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-blue">Contact Us</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Leicester, UK</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 8282048</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+    <p>If you have any enquiries, contact us here:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="First Name" required name="First name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Surname" required name="Surname"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
